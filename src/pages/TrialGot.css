@@ -1,0 +1,32 @@
+.trialGotDiv {
+  background-color: var(--pricing-component-background);
+  background-image: url(../assets/pattern-circles-light.svg);
+  background-repeat: no-repeat;
+  background-position: top 10px right 10px;
+  border-radius: 0.5em;
+  padding: 36px 7.34% 87px;
+  box-shadow: 0 0.1rem 2rem var(--toggle-background);
+}
+.signedup {
+  font-size: 6vw;
+  color: var(--text-cta-background);
+  margin-top: 64px;
+  font-weight: 600;
+  line-height: 170%;
+}
+.wearehappy {
+  font-size: 4vw;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+@media only screen and (min-width: 620px) {
+  .trialGotDiv {
+    padding: 24px 7.34% 64px;
+  }
+  .signedup {
+    font-size: 2rem;
+  }
+  .wearehappy {
+    font-size: 1.2rem;
+  }
+}

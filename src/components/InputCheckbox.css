@@ -1,0 +1,32 @@
+input[type="checkbox"] {
+  display: none;
+}
+label {
+  position: relative;
+  display: grid;
+  align-items: center;
+  width: 3.5rem;
+  height: 2rem;
+  background-color: var(--toggle-background);
+  border-radius: 8rem;
+}
+label::before {
+  content: "";
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  background-color: var(--pricing-component-background);
+  left: 0.2rem;
+  position: absolute;
+  transition: left 0.2s;
+}
+label:hover {
+  background-color: var(--full-slider-bar);
+  cursor: pointer;
+}
+input[type="checkbox"]:checked + label {
+  background-color: var(--discount-text);
+}
+input[type="checkbox"]:checked + label::before {
+  left: calc(3.5rem - 1.4rem - 0.2rem); /*  dont add margins-inline!!!*/
+}
