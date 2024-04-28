@@ -1,19 +1,21 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import TrialGot from "./pages/TrialGot";
+import ChallengeBy from "./components/ChallengeBy";
 import "./reset.css";
 import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
-      <main>
-        <Routes>
-          <Route index element={<Home />} />
-          <Route path="trial" element={<TrialGot />} />
-        </Routes>
-      </main>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <main>
+          <Routes>
+            <Route index element={<Home />} />
+          </Routes>
+        </main>
+      </BrowserRouter>
+      <ChallengeBy />
+    </>
   );
 }
 

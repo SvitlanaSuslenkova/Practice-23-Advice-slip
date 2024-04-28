@@ -1,0 +1,8 @@
+:root {
+  --main-text: hsl(193, 38%, 86%);
+  --button-and-h2: hsl(150, 100%, 66%);
+
+  --line: hsl(217, 19%, 38%); /*hz*/
+  --main: hsl(217, 19%, 24%);
+  --body: hsl(218, 23%, 16%);
+}

@@ -1,6 +1,6 @@
 const ChallengeBy = () => {
   return (
-    <p style={{ fontSize: "11px", textAlign: "center", marginTop: "24px" }}>
+    <p style={{ fontSize: "11px", textAlign: "center", marginTop: "40px" }}>
       Challenge by{" "}
       <a
         style={{ color: "hsl(228, 45%, 44%)" }}
